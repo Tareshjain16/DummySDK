@@ -4,7 +4,7 @@ Pod::Spec.new do |spec|
 
 
 spec.name         = "DummySDK"
-spec.version      = "1.0.0"
+spec.version      = "1.0.1"
 spec.summary      = "This is the best DummySDK."
 spec.description  = 'I have no idea what to write as a description'
 
