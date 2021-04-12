@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		9154C1FF2624C4B800B09050 /* DummySDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 9154C1FD2624C4B800B09050 /* DummySDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9154C20C2624DDEA00B09050 /* DummySingleton.h in Headers */ = {isa = PBXBuildFile; fileRef = 9154C20A2624DDEA00B09050 /* DummySingleton.h */; };
+		9154C20D2624DDEA00B09050 /* DummySingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9154C20B2624DDEA00B09050 /* DummySingleton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9154C1FA2624C4B800B09050 /* DummySDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DummySDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9154C1FD2624C4B800B09050 /* DummySDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DummySDK.h; sourceTree = "<group>"; };
 		9154C1FE2624C4B800B09050 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9154C20A2624DDEA00B09050 /* DummySingleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DummySingleton.h; sourceTree = "<group>"; };
+		9154C20B2624DDEA00B09050 /* DummySingleton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DummySingleton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +52,8 @@
 			children = (
 				9154C1FD2624C4B800B09050 /* DummySDK.h */,
 				9154C1FE2624C4B800B09050 /* Info.plist */,
+				9154C20A2624DDEA00B09050 /* DummySingleton.h */,
+				9154C20B2624DDEA00B09050 /* DummySingleton.m */,
 			);
 			path = DummySDK;
 			sourceTree = "<group>";
@@ -60,6 +66,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9154C1FF2624C4B800B09050 /* DummySDK.h in Headers */,
+				9154C20C2624DDEA00B09050 /* DummySingleton.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9154C20D2624DDEA00B09050 /* DummySingleton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

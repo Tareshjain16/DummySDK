@@ -6,6 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "DummySingleton.h"
 
 //! Project version number for DummySDK.
 FOUNDATION_EXPORT double DummySDKVersionNumber;
